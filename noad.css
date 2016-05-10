@@ -1,0 +1,24 @@
+#content_left>div:not(.c-container) {
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+#content_left>div.leftBlock, .hit_top_new {
+    height: auto;
+/*    overflow: auto;
+    margin-bottom: auto;*/
+}
+/*
+#ec_im_container, #content_right .ad-block {
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+*/
+
+#content_right td>div:last-child {
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
